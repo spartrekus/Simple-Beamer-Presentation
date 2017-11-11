@@ -1,0 +1,77 @@
+
+
+\documentclass[bigger]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+%Global Background must be put in preamble
+\usebackgroundtemplate{\includegraphics[width=\paperwidth,height=\paperheight]{newton.jpg}}
+
+ 
+!begin
+
+
+\begin{frame}{Introduction}
+\begin{itemize}
+\item 1
+\item 2
+\item 3
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}{Experimental Procedure}
+\begin{itemize}
+\item 1
+\item 2
+\item 3
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}{Results}
+\begin{itemize}
+\item 1
+\item 2
+\item 3
+\end{itemize}
+\end{frame}
+
+
+
+// this starts the module !beamer (unibeam)
+!beamer
+!clr
+//!section Results (!beamer)
+!header Results 
+> 1
+> 2
+> 3
+
+!clr
+//!section Modelling
+!header Modelling 
+> Conditions 
+- part 1
+- part 2
+- part 3
+
+!clr
+//!section Discussion (!beamer)
+!header Discussion 
+> item 1
+> item 2
+> item 3
+
+
+// this unactivate the module !beamer (unibeam)
+!nobeamer
+\begin{frame}{Summary}
+\begin{itemize}
+\item 1
+\item 2
+\item 3
+\end{itemize}
+\end{frame}
+
+
